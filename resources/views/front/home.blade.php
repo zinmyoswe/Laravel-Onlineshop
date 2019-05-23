@@ -31,6 +31,7 @@
     display: none;
     float: left;
     width: 100%;
+    height: 600px;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -38,6 +39,47 @@
     transition: transform .6s ease-in-out;
     transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
+
+/*addias*/
+.color-theme-white___3NDJn h2, .color-theme-white___3NDJn p {
+    color: #fff;
+}
+.title___DZ13z {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.gl-heading--s, h5 {
+    font-size: 18px;
+    line-height: 16px;
+}
+.gl-heading, h1, h2, h3, h4, h5, h6 {
+    letter-
+    spacing: 1.5px;
+}
+h2{
+	font-style: normal;
+    font-weight: 600;
+    font-family: 'Abel', sans-serif;
+}
+h2 a{
+	color: #fff;
+}
+h2 a:hover{
+	color: #fff;
+}
+/*online shop*/
+.add2_text{
+	color: #000;
+}
+.img_feature{
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+.feature_cat{
+
+	font-size: 24px;
+}
+
     </style>
     <!-- Custom styles for this template -->
    
@@ -52,32 +94,34 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/HP_MH_1920x800-NJ-051019_tcm221-362745.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <h1>NITE JOGGER FOR ALL</h1>
+            <p>Light up the night in new Nite Jogger colorways. Photo by Cole Younger.</p>
+            <p><a class="btn btn-lg btn-light" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+      	<img src="https://brand.assets.adidas.com/f_auto,q_auto,fl_lossy/capi/enGB/Images/new-styles-added-hp-masthead-desktop_143-363097.jpg" alt="" width="100%" height="100%" fill="#777">
+      	
+      <div class="carousel-caption text-left">
+            <h1 class="add2_text">NEW STYLES ADDED - 33% OFF</h1>
+            <p class="add2_text">Keep celebrating 70 years of adidas. Enjoy 33% off today and Show Your Stripes!</p>
+            <p><a class="btn btn-lg btn-dark" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
-        </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+      	<img src="https://content.nike.com/content/dam/one-nike/en_lu/SU19/Mens/W_20190516_EMEA_NSW_MLP_P3A_SHOX/W_20190516_EMEA_NSW_MLP_P3A_SHOX_DT_1600x600_visual.jpg.transform/full-screen/W_20190516_EMEA_NSW_MLP_P3A_SHOX_DT_1600x600_visual.jpg" alt="" width="100%" height="100%" fill="#777">
+        
         <div class="container">
-          <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <div class="carousel-caption text-left">
+            <h1>KICK UP A STORM IN SHOX</h1>
+            <p>The subversive Nike Shox R4 is making<br>
+waves in clean monochrome colourways.</p>
+            <p><a class="btn btn-lg btn-light" href="#" role="button" style="margin-bottom: 130px">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
@@ -96,6 +140,177 @@
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
+  {{-- ======================= start of addias ==================== --}}
+	<div class="row">
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/MOVED_OVER_tcm221-363900.jpg" width="700px" height="500px" style="margin-left: 50px">
+
+			  <div class="container">
+          <div class="carousel-caption">
+            <h2>ULTRABOOST 19</h2>
+            <p>Reboosted</p>
+            <p><a class="btn btn-lg btn-light" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+
+		</div>
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-fw19-hoc-drop1-tease-hp-teaser-large-2up-ee5790-m-t_v2_tcm221-364940.jpg" width="700px" height="500px">
+
+			  <div class="container">
+          <div class="carousel-caption"">
+            <h2>HOME OF CLASSICS</h2>
+            
+            <p><a class="btn btn-lg btn-light" href="#" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+		</div>
+	</div>
+
+
+	<br><br>
+	{{-- ======================= end of addias ==================== --}}
+
+	{{-- ======================= start of FEATURED CATEGORIES ==================== --}}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="feature_cat">FEATURED CATEGORIES</h2><br>
+				<div class="row">
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_pg_m_05?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Casual Shirts</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j09_polo?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Polo Shirts</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j10_shirt_m?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">T-Shirts</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j11_Chino?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Pants</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j12_ezy?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Jeans</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j13_active?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Activewear</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j14_shorts_m?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">Shorts</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+					<div class="col-lg-3 col-xs-6 col-sm-6">
+						<img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_sp_ar_030719_v2_01?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
+						  <div class="container">
+				          <div class="carousel-caption">
+				            <h2 style="margin-bottom: 130px;"><a href="">AIRism Innerwear</a></h2>
+				            
+				          </div>
+				        </div>
+					</div>
+				
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	{{-- ======================= end of FEATURED CATEGORIES ==================== --}}
+	{{-- ======================= start of addias 2 ==================== --}}
+	<div class="row">
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/teaser-c-Adidas_Swim_Amphi-mobile_background_image_tcm143-341615.jpg" width="700px" height="500px" style="margin-left: 50px">
+
+			  <div class="container">
+          <div class="carousel-caption">
+            <h2>MAXIMUM VERSATILITY</h2>
+            <p>Three support levels, for any activity in and around the water.</p>
+            <p><a class="btn btn-lg btn-dark" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+
+		</div>
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/HP_Teaser_Tights_Small_tcm143-315446.jpg" width="700px" height="500px">
+
+			  <div class="container">
+          <div class="carousel-caption"">
+            <h2>WORK IT OUTSIDE</h2>
+            <p>Get inspired to bootcamp equipment-free in high support tights.</p>
+            
+            <p><a class="btn btn-lg btn-dark" href="#" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+		</div>
+	</div>
+
+
+	<br><br>
+	{{-- ======================= end of addias 2 ==================== --}}
+
+	  
+   {{-- ======================= start of caro ==================== --}}
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+    
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ptBR/Images/HEADER2-GLP_Nemeziz_Desktop_Masthead-Small_tcm194-347942.jpg" alt="" width="100%" height="100%" fill="#777">
+        <div class="container">
+          <div class="carousel-caption text-left" style="margin-bottom: 140px;">
+            <h1>UNLOCK AGILITY</h1>
+            <p>New Nemeziz 19 is exclusively available through adidas and selected retailers.</p>
+            <p><a class="btn btn-lg btn-dark" href="#" role="button">EXCLUSIVELY HERE <i class="fa fa-arrow-right"></i></a></p>
+             <p><a class="btn btn-lg btn-dark" href="#" role="button">EXPLORE <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  {{-- ======================= end of caro ==================== --}}
+
+
 
   <div class="container marketing">
 
